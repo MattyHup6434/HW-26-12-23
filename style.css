@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fahkwang', sans-serif;
+}
+body{
+  background: #f0f0f0;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container{
+  background: #ffffff;
+ 
+  max-width:  900px;
+  min-height: 500px;
+  margin: 3rem auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ border-radius: 0.5rem;
+  
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.btnAd{
+  margin-top: 2rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.btnAd:hover{
+background: rgb(229, 229, 229)
+}
+.btn{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.btn-1{
+  background-color: rgb(0, 255, 106);
+
+}
+.btn-1:hover{
+  background-color: rgb(90, 255, 158);
+}
+.btn-2{
+  background-color: rgb(251, 255, 135);
+
+}
+
+.btn-3{
+  background-color: rgb(255, 145, 145);
+
+}.btn-3:hover{
+  background-color: rgb(253, 158, 158);
+
+}
+.btn-4{
+  background-color: rgb(136, 134, 255);
+
+
+}.btn-4:hover{
+  background-color: rgb(149, 148, 254);
+
+
+}
